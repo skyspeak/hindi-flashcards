@@ -33,5 +33,5 @@ After changing web files, bump `VERSION` in `web/sw.js` so installed copies pick
 
 ## Deploys
 
-- `.github/workflows/pages.yml` deploys `web/` to GitHub Pages on every push to `main`.
+- GitHub Pages deploys from the `main` branch (root). The root `index.html` redirects to `web/`, so the app is at https://skyspeak.github.io/hindi-flashcards/web/.
 - `.github/workflows/android.yml` builds the APK on every push (download it from the run's artifacts). Push a tag like `v1.0` to attach it to a GitHub Release.
