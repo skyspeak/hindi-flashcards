@@ -1,0 +1,1412 @@
+{
+ "version": 1,
+ "_readme": "Add cards to 'cards'. Required: id (unique), deck (a deck id), hi, roman, en. Optional: zh, py (pinyin), hint, ex {hi,roman,en}, color (hex), num, digit. Sentences may use {name} {city} {age} {grade}; hi_f/roman_f hold girl forms.",
+ "decks": [
+  {
+   "id": "vowels",
+   "title": "Vowels",
+   "hi": "स्वर",
+   "roman": "swar",
+   "icon": "अ"
+  },
+  {
+   "id": "consonants",
+   "title": "Consonants",
+   "hi": "व्यंजन",
+   "roman": "vyanjan",
+   "icon": "क"
+  },
+  {
+   "id": "numbers",
+   "title": "Numbers 0–20",
+   "hi": "संख्याएँ",
+   "roman": "sankhyaayein",
+   "icon": "१२"
+  },
+  {
+   "id": "tens",
+   "title": "Tens 10–100",
+   "hi": "दहाइयाँ",
+   "roman": "dahaaiyaan",
+   "icon": "१००"
+  },
+  {
+   "id": "colors",
+   "title": "Colors",
+   "hi": "रंग",
+   "roman": "rang",
+   "icon": "🎨"
+  },
+  {
+   "id": "sentences",
+   "title": "Sentences",
+   "hi": "वाक्य",
+   "roman": "vaakya",
+   "icon": "💬"
+  },
+  {
+   "id": "words",
+   "title": "Words",
+   "hi": "शब्द",
+   "roman": "shabd",
+   "icon": "📖"
+  }
+ ],
+ "cards": [
+  {
+   "id": "vowels-0",
+   "deck": "vowels",
+   "hi": "अ",
+   "roman": "a",
+   "en": "the sound “a”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "अनार",
+    "roman": "anaar",
+    "en": "pomegranate"
+   }
+  },
+  {
+   "id": "vowels-1",
+   "deck": "vowels",
+   "hi": "आ",
+   "roman": "aa",
+   "en": "the sound “aa”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "आम",
+    "roman": "aam",
+    "en": "mango"
+   }
+  },
+  {
+   "id": "vowels-2",
+   "deck": "vowels",
+   "hi": "इ",
+   "roman": "i",
+   "en": "the sound “i”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "इमली",
+    "roman": "imli",
+    "en": "tamarind"
+   }
+  },
+  {
+   "id": "vowels-3",
+   "deck": "vowels",
+   "hi": "ई",
+   "roman": "ee",
+   "en": "the sound “ee”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "ईख",
+    "roman": "eekh",
+    "en": "sugarcane"
+   }
+  },
+  {
+   "id": "vowels-4",
+   "deck": "vowels",
+   "hi": "उ",
+   "roman": "u",
+   "en": "the sound “u”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "उल्लू",
+    "roman": "ulloo",
+    "en": "owl"
+   }
+  },
+  {
+   "id": "vowels-5",
+   "deck": "vowels",
+   "hi": "ऊ",
+   "roman": "oo",
+   "en": "the sound “oo”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "ऊन",
+    "roman": "oon",
+    "en": "wool"
+   }
+  },
+  {
+   "id": "vowels-6",
+   "deck": "vowels",
+   "hi": "ऋ",
+   "roman": "ri",
+   "en": "the sound “ri”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "ऋषि",
+    "roman": "rishi",
+    "en": "sage"
+   }
+  },
+  {
+   "id": "vowels-7",
+   "deck": "vowels",
+   "hi": "ए",
+   "roman": "e",
+   "en": "the sound “e”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "एक",
+    "roman": "ek",
+    "en": "one"
+   }
+  },
+  {
+   "id": "vowels-8",
+   "deck": "vowels",
+   "hi": "ऐ",
+   "roman": "ai",
+   "en": "the sound “ai”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "ऐनक",
+    "roman": "ainak",
+    "en": "glasses"
+   }
+  },
+  {
+   "id": "vowels-9",
+   "deck": "vowels",
+   "hi": "ओ",
+   "roman": "o",
+   "en": "the sound “o”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "ओस",
+    "roman": "os",
+    "en": "dew"
+   }
+  },
+  {
+   "id": "vowels-10",
+   "deck": "vowels",
+   "hi": "औ",
+   "roman": "au",
+   "en": "the sound “au”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "औरत",
+    "roman": "aurat",
+    "en": "woman"
+   }
+  },
+  {
+   "id": "vowels-11",
+   "deck": "vowels",
+   "hi": "अं",
+   "roman": "am / an",
+   "en": "the sound “am”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "अंगूर",
+    "roman": "angoor",
+    "en": "grapes"
+   }
+  },
+  {
+   "id": "vowels-12",
+   "deck": "vowels",
+   "hi": "अः",
+   "roman": "ah",
+   "en": "the sound “ah”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "प्रातः",
+    "roman": "praatah",
+    "en": "morning (ः at the end)"
+   }
+  },
+  {
+   "id": "consonants-0",
+   "deck": "consonants",
+   "hi": "क",
+   "roman": "ka",
+   "en": "the sound “ka”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "कबूतर",
+    "roman": "kabootar",
+    "en": "pigeon"
+   }
+  },
+  {
+   "id": "consonants-1",
+   "deck": "consonants",
+   "hi": "ख",
+   "roman": "kha",
+   "en": "the sound “kha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "खरगोश",
+    "roman": "khargosh",
+    "en": "rabbit"
+   }
+  },
+  {
+   "id": "consonants-2",
+   "deck": "consonants",
+   "hi": "ग",
+   "roman": "ga",
+   "en": "the sound “ga”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "गमला",
+    "roman": "gamlaa",
+    "en": "flowerpot"
+   }
+  },
+  {
+   "id": "consonants-3",
+   "deck": "consonants",
+   "hi": "घ",
+   "roman": "gha",
+   "en": "the sound “gha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "घड़ी",
+    "roman": "ghadi",
+    "en": "clock"
+   }
+  },
+  {
+   "id": "consonants-4",
+   "deck": "consonants",
+   "hi": "ङ",
+   "roman": "nga",
+   "en": "the sound “nga”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "पङ्खा",
+    "roman": "pankhaa",
+    "en": "fan (also written पंखा)"
+   },
+   "hint": "nasal; only in the middle of words"
+  },
+  {
+   "id": "consonants-5",
+   "deck": "consonants",
+   "hi": "च",
+   "roman": "cha",
+   "en": "the sound “cha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "चम्मच",
+    "roman": "chammach",
+    "en": "spoon"
+   }
+  },
+  {
+   "id": "consonants-6",
+   "deck": "consonants",
+   "hi": "छ",
+   "roman": "chha",
+   "en": "the sound “chha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "छतरी",
+    "roman": "chhatri",
+    "en": "umbrella"
+   }
+  },
+  {
+   "id": "consonants-7",
+   "deck": "consonants",
+   "hi": "ज",
+   "roman": "ja",
+   "en": "the sound “ja”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "जहाज़",
+    "roman": "jahaaz",
+    "en": "ship"
+   }
+  },
+  {
+   "id": "consonants-8",
+   "deck": "consonants",
+   "hi": "झ",
+   "roman": "jha",
+   "en": "the sound “jha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "झंडा",
+    "roman": "jhandaa",
+    "en": "flag"
+   }
+  },
+  {
+   "id": "consonants-9",
+   "deck": "consonants",
+   "hi": "ञ",
+   "roman": "nya",
+   "en": "the sound “nya”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "चञ्चल",
+    "roman": "chanchal",
+    "en": "playful"
+   },
+   "hint": "nasal; only in the middle of words"
+  },
+  {
+   "id": "consonants-10",
+   "deck": "consonants",
+   "hi": "ट",
+   "roman": "ṭa",
+   "en": "the sound “ṭa”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "टमाटर",
+    "roman": "tamaatar",
+    "en": "tomato"
+   },
+   "hint": "hard t: curl the tongue back"
+  },
+  {
+   "id": "consonants-11",
+   "deck": "consonants",
+   "hi": "ठ",
+   "roman": "ṭha",
+   "en": "the sound “ṭha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "ठेला",
+    "roman": "thelaa",
+    "en": "cart"
+   },
+   "hint": "hard th: curl the tongue back"
+  },
+  {
+   "id": "consonants-12",
+   "deck": "consonants",
+   "hi": "ड",
+   "roman": "ḍa",
+   "en": "the sound “ḍa”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "डमरू",
+    "roman": "damroo",
+    "en": "small drum"
+   },
+   "hint": "hard d: curl the tongue back"
+  },
+  {
+   "id": "consonants-13",
+   "deck": "consonants",
+   "hi": "ढ",
+   "roman": "ḍha",
+   "en": "the sound “ḍha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "ढोल",
+    "roman": "dhol",
+    "en": "drum"
+   },
+   "hint": "hard dh: curl the tongue back"
+  },
+  {
+   "id": "consonants-14",
+   "deck": "consonants",
+   "hi": "ण",
+   "roman": "ṇa",
+   "en": "the sound “ṇa”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "बाण",
+    "roman": "baan",
+    "en": "arrow"
+   },
+   "hint": "hard n: curl the tongue back"
+  },
+  {
+   "id": "consonants-15",
+   "deck": "consonants",
+   "hi": "त",
+   "roman": "ta",
+   "en": "the sound “ta”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "तरबूज़",
+    "roman": "tarbooz",
+    "en": "watermelon"
+   },
+   "hint": "soft t: tongue on the teeth"
+  },
+  {
+   "id": "consonants-16",
+   "deck": "consonants",
+   "hi": "थ",
+   "roman": "tha",
+   "en": "the sound “tha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "थाली",
+    "roman": "thaali",
+    "en": "plate"
+   },
+   "hint": "soft th: tongue on the teeth"
+  },
+  {
+   "id": "consonants-17",
+   "deck": "consonants",
+   "hi": "द",
+   "roman": "da",
+   "en": "the sound “da”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "दरवाज़ा",
+    "roman": "darvaazaa",
+    "en": "door"
+   },
+   "hint": "soft d: tongue on the teeth"
+  },
+  {
+   "id": "consonants-18",
+   "deck": "consonants",
+   "hi": "ध",
+   "roman": "dha",
+   "en": "the sound “dha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "धनुष",
+    "roman": "dhanush",
+    "en": "bow"
+   },
+   "hint": "soft dh: tongue on the teeth"
+  },
+  {
+   "id": "consonants-19",
+   "deck": "consonants",
+   "hi": "न",
+   "roman": "na",
+   "en": "the sound “na”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "नल",
+    "roman": "nal",
+    "en": "tap"
+   }
+  },
+  {
+   "id": "consonants-20",
+   "deck": "consonants",
+   "hi": "प",
+   "roman": "pa",
+   "en": "the sound “pa”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "पतंग",
+    "roman": "patang",
+    "en": "kite"
+   }
+  },
+  {
+   "id": "consonants-21",
+   "deck": "consonants",
+   "hi": "फ",
+   "roman": "pha",
+   "en": "the sound “pha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "फल",
+    "roman": "phal",
+    "en": "fruit"
+   }
+  },
+  {
+   "id": "consonants-22",
+   "deck": "consonants",
+   "hi": "ब",
+   "roman": "ba",
+   "en": "the sound “ba”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "बतख़",
+    "roman": "batakh",
+    "en": "duck"
+   }
+  },
+  {
+   "id": "consonants-23",
+   "deck": "consonants",
+   "hi": "भ",
+   "roman": "bha",
+   "en": "the sound “bha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "भालू",
+    "roman": "bhaaloo",
+    "en": "bear"
+   }
+  },
+  {
+   "id": "consonants-24",
+   "deck": "consonants",
+   "hi": "म",
+   "roman": "ma",
+   "en": "the sound “ma”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "मछली",
+    "roman": "machhli",
+    "en": "fish"
+   }
+  },
+  {
+   "id": "consonants-25",
+   "deck": "consonants",
+   "hi": "य",
+   "roman": "ya",
+   "en": "the sound “ya”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "यात्री",
+    "roman": "yaatri",
+    "en": "traveller"
+   }
+  },
+  {
+   "id": "consonants-26",
+   "deck": "consonants",
+   "hi": "र",
+   "roman": "ra",
+   "en": "the sound “ra”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "रथ",
+    "roman": "rath",
+    "en": "chariot"
+   }
+  },
+  {
+   "id": "consonants-27",
+   "deck": "consonants",
+   "hi": "ल",
+   "roman": "la",
+   "en": "the sound “la”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "लट्टू",
+    "roman": "lattoo",
+    "en": "spinning top"
+   }
+  },
+  {
+   "id": "consonants-28",
+   "deck": "consonants",
+   "hi": "व",
+   "roman": "va",
+   "en": "the sound “va”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "वन",
+    "roman": "van",
+    "en": "forest"
+   }
+  },
+  {
+   "id": "consonants-29",
+   "deck": "consonants",
+   "hi": "श",
+   "roman": "sha",
+   "en": "the sound “sha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "शेर",
+    "roman": "sher",
+    "en": "lion"
+   }
+  },
+  {
+   "id": "consonants-30",
+   "deck": "consonants",
+   "hi": "ष",
+   "roman": "ṣha",
+   "en": "the sound “ṣha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "षट्कोण",
+    "roman": "shatkon",
+    "en": "hexagon"
+   },
+   "hint": "sounds like श (sha)"
+  },
+  {
+   "id": "consonants-31",
+   "deck": "consonants",
+   "hi": "स",
+   "roman": "sa",
+   "en": "the sound “sa”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "सेब",
+    "roman": "seb",
+    "en": "apple"
+   }
+  },
+  {
+   "id": "consonants-32",
+   "deck": "consonants",
+   "hi": "ह",
+   "roman": "ha",
+   "en": "the sound “ha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "हाथी",
+    "roman": "haathi",
+    "en": "elephant"
+   }
+  },
+  {
+   "id": "consonants-33",
+   "deck": "consonants",
+   "hi": "क्ष",
+   "roman": "ksha",
+   "en": "the sound “ksha”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "कक्षा",
+    "roman": "kakshaa",
+    "en": "class (grade)"
+   },
+   "hint": "compound: क् + ष"
+  },
+  {
+   "id": "consonants-34",
+   "deck": "consonants",
+   "hi": "त्र",
+   "roman": "tra",
+   "en": "the sound “tra”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "त्रिभुज",
+    "roman": "tribhuj",
+    "en": "triangle"
+   },
+   "hint": "compound: त् + र"
+  },
+  {
+   "id": "consonants-35",
+   "deck": "consonants",
+   "hi": "ज्ञ",
+   "roman": "gya",
+   "en": "the sound “gya”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "ज्ञान",
+    "roman": "gyaan",
+    "en": "knowledge"
+   },
+   "hint": "compound: ज् + ञ"
+  },
+  {
+   "id": "consonants-36",
+   "deck": "consonants",
+   "hi": "श्र",
+   "roman": "shra",
+   "en": "the sound “shra”",
+   "zh": "—",
+   "py": "",
+   "ex": {
+    "hi": "श्रमिक",
+    "roman": "shramik",
+    "en": "worker"
+   },
+   "hint": "compound: श् + र"
+  },
+  {
+   "id": "numbers-0",
+   "deck": "numbers",
+   "hi": "शून्य",
+   "roman": "shoonya",
+   "en": "0 (zero)",
+   "zh": "零",
+   "py": "líng",
+   "num": 0,
+   "digit": "०"
+  },
+  {
+   "id": "numbers-1",
+   "deck": "numbers",
+   "hi": "एक",
+   "roman": "ek",
+   "en": "1 (one)",
+   "zh": "一",
+   "py": "yī",
+   "num": 1,
+   "digit": "१"
+  },
+  {
+   "id": "numbers-2",
+   "deck": "numbers",
+   "hi": "दो",
+   "roman": "do",
+   "en": "2 (two)",
+   "zh": "二",
+   "py": "èr",
+   "num": 2,
+   "digit": "२"
+  },
+  {
+   "id": "numbers-3",
+   "deck": "numbers",
+   "hi": "तीन",
+   "roman": "teen",
+   "en": "3 (three)",
+   "zh": "三",
+   "py": "sān",
+   "num": 3,
+   "digit": "३"
+  },
+  {
+   "id": "numbers-4",
+   "deck": "numbers",
+   "hi": "चार",
+   "roman": "chaar",
+   "en": "4 (four)",
+   "zh": "四",
+   "py": "sì",
+   "num": 4,
+   "digit": "४"
+  },
+  {
+   "id": "numbers-5",
+   "deck": "numbers",
+   "hi": "पाँच",
+   "roman": "paanch",
+   "en": "5 (five)",
+   "zh": "五",
+   "py": "wǔ",
+   "num": 5,
+   "digit": "५"
+  },
+  {
+   "id": "numbers-6",
+   "deck": "numbers",
+   "hi": "छह",
+   "roman": "chhah",
+   "en": "6 (six)",
+   "zh": "六",
+   "py": "liù",
+   "num": 6,
+   "digit": "६"
+  },
+  {
+   "id": "numbers-7",
+   "deck": "numbers",
+   "hi": "सात",
+   "roman": "saat",
+   "en": "7 (seven)",
+   "zh": "七",
+   "py": "qī",
+   "num": 7,
+   "digit": "७"
+  },
+  {
+   "id": "numbers-8",
+   "deck": "numbers",
+   "hi": "आठ",
+   "roman": "aath",
+   "en": "8 (eight)",
+   "zh": "八",
+   "py": "bā",
+   "num": 8,
+   "digit": "८"
+  },
+  {
+   "id": "numbers-9",
+   "deck": "numbers",
+   "hi": "नौ",
+   "roman": "nau",
+   "en": "9 (nine)",
+   "zh": "九",
+   "py": "jiǔ",
+   "num": 9,
+   "digit": "९"
+  },
+  {
+   "id": "numbers-10",
+   "deck": "numbers",
+   "hi": "दस",
+   "roman": "das",
+   "en": "10 (ten)",
+   "zh": "十",
+   "py": "shí",
+   "num": 10,
+   "digit": "१०"
+  },
+  {
+   "id": "numbers-11",
+   "deck": "numbers",
+   "hi": "ग्यारह",
+   "roman": "gyaarah",
+   "en": "11 (eleven)",
+   "zh": "十一",
+   "py": "shíyī",
+   "num": 11,
+   "digit": "११"
+  },
+  {
+   "id": "numbers-12",
+   "deck": "numbers",
+   "hi": "बारह",
+   "roman": "baarah",
+   "en": "12 (twelve)",
+   "zh": "十二",
+   "py": "shí'èr",
+   "num": 12,
+   "digit": "१२"
+  },
+  {
+   "id": "numbers-13",
+   "deck": "numbers",
+   "hi": "तेरह",
+   "roman": "terah",
+   "en": "13 (thirteen)",
+   "zh": "十三",
+   "py": "shísān",
+   "num": 13,
+   "digit": "१३"
+  },
+  {
+   "id": "numbers-14",
+   "deck": "numbers",
+   "hi": "चौदह",
+   "roman": "chaudah",
+   "en": "14 (fourteen)",
+   "zh": "十四",
+   "py": "shísì",
+   "num": 14,
+   "digit": "१४"
+  },
+  {
+   "id": "numbers-15",
+   "deck": "numbers",
+   "hi": "पंद्रह",
+   "roman": "pandrah",
+   "en": "15 (fifteen)",
+   "zh": "十五",
+   "py": "shíwǔ",
+   "num": 15,
+   "digit": "१५"
+  },
+  {
+   "id": "numbers-16",
+   "deck": "numbers",
+   "hi": "सोलह",
+   "roman": "solah",
+   "en": "16 (sixteen)",
+   "zh": "十六",
+   "py": "shíliù",
+   "num": 16,
+   "digit": "१६"
+  },
+  {
+   "id": "numbers-17",
+   "deck": "numbers",
+   "hi": "सत्रह",
+   "roman": "satrah",
+   "en": "17 (seventeen)",
+   "zh": "十七",
+   "py": "shíqī",
+   "num": 17,
+   "digit": "१७"
+  },
+  {
+   "id": "numbers-18",
+   "deck": "numbers",
+   "hi": "अठारह",
+   "roman": "athaarah",
+   "en": "18 (eighteen)",
+   "zh": "十八",
+   "py": "shíbā",
+   "num": 18,
+   "digit": "१८"
+  },
+  {
+   "id": "numbers-19",
+   "deck": "numbers",
+   "hi": "उन्नीस",
+   "roman": "unnees",
+   "en": "19 (nineteen)",
+   "zh": "十九",
+   "py": "shíjiǔ",
+   "num": 19,
+   "digit": "१९"
+  },
+  {
+   "id": "numbers-20",
+   "deck": "numbers",
+   "hi": "बीस",
+   "roman": "bees",
+   "en": "20 (twenty)",
+   "zh": "二十",
+   "py": "èrshí",
+   "num": 20,
+   "digit": "२०"
+  },
+  {
+   "id": "tens-10",
+   "deck": "tens",
+   "hi": "दस",
+   "roman": "das",
+   "en": "10 (ten)",
+   "zh": "十",
+   "py": "shí",
+   "num": 10,
+   "digit": "१०"
+  },
+  {
+   "id": "tens-20",
+   "deck": "tens",
+   "hi": "बीस",
+   "roman": "bees",
+   "en": "20 (twenty)",
+   "zh": "二十",
+   "py": "èrshí",
+   "num": 20,
+   "digit": "२०"
+  },
+  {
+   "id": "tens-30",
+   "deck": "tens",
+   "hi": "तीस",
+   "roman": "tees",
+   "en": "30 (thirty)",
+   "zh": "三十",
+   "py": "sānshí",
+   "num": 30,
+   "digit": "३०"
+  },
+  {
+   "id": "tens-40",
+   "deck": "tens",
+   "hi": "चालीस",
+   "roman": "chaalees",
+   "en": "40 (forty)",
+   "zh": "四十",
+   "py": "sìshí",
+   "num": 40,
+   "digit": "४०"
+  },
+  {
+   "id": "tens-50",
+   "deck": "tens",
+   "hi": "पचास",
+   "roman": "pachaas",
+   "en": "50 (fifty)",
+   "zh": "五十",
+   "py": "wǔshí",
+   "num": 50,
+   "digit": "५०"
+  },
+  {
+   "id": "tens-60",
+   "deck": "tens",
+   "hi": "साठ",
+   "roman": "saath",
+   "en": "60 (sixty)",
+   "zh": "六十",
+   "py": "liùshí",
+   "num": 60,
+   "digit": "६०"
+  },
+  {
+   "id": "tens-70",
+   "deck": "tens",
+   "hi": "सत्तर",
+   "roman": "sattar",
+   "en": "70 (seventy)",
+   "zh": "七十",
+   "py": "qīshí",
+   "num": 70,
+   "digit": "७०"
+  },
+  {
+   "id": "tens-80",
+   "deck": "tens",
+   "hi": "अस्सी",
+   "roman": "assi",
+   "en": "80 (eighty)",
+   "zh": "八十",
+   "py": "bāshí",
+   "num": 80,
+   "digit": "८०"
+  },
+  {
+   "id": "tens-90",
+   "deck": "tens",
+   "hi": "नब्बे",
+   "roman": "nabbe",
+   "en": "90 (ninety)",
+   "zh": "九十",
+   "py": "jiǔshí",
+   "num": 90,
+   "digit": "९०"
+  },
+  {
+   "id": "tens-100",
+   "deck": "tens",
+   "hi": "सौ",
+   "roman": "sau",
+   "en": "100 (one hundred)",
+   "zh": "一百",
+   "py": "yìbǎi",
+   "num": 100,
+   "digit": "१००"
+  },
+  {
+   "id": "colors-0",
+   "deck": "colors",
+   "hi": "लाल",
+   "roman": "laal",
+   "en": "red",
+   "zh": "红色",
+   "py": "hóngsè",
+   "color": "#E53935"
+  },
+  {
+   "id": "colors-1",
+   "deck": "colors",
+   "hi": "नीला",
+   "roman": "neela",
+   "en": "blue",
+   "zh": "蓝色",
+   "py": "lánsè",
+   "color": "#1E88E5"
+  },
+  {
+   "id": "colors-2",
+   "deck": "colors",
+   "hi": "नील",
+   "roman": "neel",
+   "en": "indigo",
+   "zh": "靛蓝色",
+   "py": "diànlánsè",
+   "color": "#3F2A9C",
+   "hint": "नील (neel) = indigo; नीला (neela) = blue"
+  },
+  {
+   "id": "colors-3",
+   "deck": "colors",
+   "hi": "बैंगनी",
+   "roman": "baingani",
+   "en": "purple / violet",
+   "zh": "紫色",
+   "py": "zǐsè",
+   "color": "#8E24AA",
+   "hint": "from बैंगन (baingan) = eggplant"
+  },
+  {
+   "id": "colors-4",
+   "deck": "colors",
+   "hi": "गुलाबी",
+   "roman": "gulaabi",
+   "en": "pink",
+   "zh": "粉红色",
+   "py": "fěnhóngsè",
+   "color": "#F48FB1",
+   "hint": "from गुलाब (gulaab) = rose"
+  },
+  {
+   "id": "colors-5",
+   "deck": "colors",
+   "hi": "सफ़ेद",
+   "roman": "safed",
+   "en": "white",
+   "zh": "白色",
+   "py": "báisè",
+   "color": "#FFFFFF",
+   "hint": "also श्वेत (shvet)"
+  },
+  {
+   "id": "colors-6",
+   "deck": "colors",
+   "hi": "पीला",
+   "roman": "peela",
+   "en": "yellow",
+   "zh": "黄色",
+   "py": "huángsè",
+   "color": "#FDD835"
+  },
+  {
+   "id": "colors-7",
+   "deck": "colors",
+   "hi": "हरा",
+   "roman": "haraa",
+   "en": "green",
+   "zh": "绿色",
+   "py": "lǜsè",
+   "color": "#43A047"
+  },
+  {
+   "id": "colors-8",
+   "deck": "colors",
+   "hi": "नारंगी",
+   "roman": "naarangi",
+   "en": "orange",
+   "zh": "橙色",
+   "py": "chéngsè",
+   "color": "#FB8C00",
+   "hint": "from नारंगी = the orange fruit"
+  },
+  {
+   "id": "colors-9",
+   "deck": "colors",
+   "hi": "काला",
+   "roman": "kaala",
+   "en": "black",
+   "zh": "黑色",
+   "py": "hēisè",
+   "color": "#212121"
+  },
+  {
+   "id": "colors-10",
+   "deck": "colors",
+   "hi": "सुनहरा",
+   "roman": "sunehra",
+   "en": "gold",
+   "zh": "金色",
+   "py": "jīnsè",
+   "color": "#D4AF37"
+  },
+  {
+   "id": "colors-11",
+   "deck": "colors",
+   "hi": "चाँदी",
+   "roman": "chaandi",
+   "en": "silver",
+   "zh": "银色",
+   "py": "yínsè",
+   "color": "#C0C0C0",
+   "hint": "चाँदी is the metal; silver-coloured = रुपहला (rupahla)"
+  },
+  {
+   "id": "colors-12",
+   "deck": "colors",
+   "hi": "स्लेटी",
+   "roman": "sleti",
+   "en": "gray",
+   "zh": "灰色",
+   "py": "huīsè",
+   "color": "#808080",
+   "hint": "from slate"
+  },
+  {
+   "id": "colors-13",
+   "deck": "colors",
+   "hi": "भूरा",
+   "roman": "bhoora",
+   "en": "brown",
+   "zh": "棕色",
+   "py": "zōngsè",
+   "color": "#795548"
+  },
+  {
+   "id": "words-0",
+   "deck": "words",
+   "hi": "घर",
+   "roman": "ghar",
+   "en": "home",
+   "zh": "家",
+   "py": "jiā"
+  },
+  {
+   "id": "words-1",
+   "deck": "words",
+   "hi": "कमल",
+   "roman": "kamal",
+   "en": "lotus",
+   "zh": "莲花",
+   "py": "liánhuā"
+  },
+  {
+   "id": "words-2",
+   "deck": "words",
+   "hi": "कलम",
+   "roman": "kalam",
+   "en": "pen",
+   "zh": "笔",
+   "py": "bǐ"
+  },
+  {
+   "id": "words-3",
+   "deck": "words",
+   "hi": "समय",
+   "roman": "samay",
+   "en": "time",
+   "zh": "时间",
+   "py": "shíjiān"
+  },
+  {
+   "id": "words-4",
+   "deck": "words",
+   "hi": "नाम",
+   "roman": "naam",
+   "en": "name",
+   "zh": "名字",
+   "py": "míngzi"
+  },
+  {
+   "id": "words-5",
+   "deck": "words",
+   "hi": "आयु",
+   "roman": "aayu",
+   "en": "age",
+   "zh": "年龄",
+   "py": "niánlíng"
+  },
+  {
+   "id": "sentences-0",
+   "deck": "sentences",
+   "hi": "मेरा नाम {name} है।",
+   "roman": "Mera naam {name} hai.",
+   "en": "My name is {name}.",
+   "zh": "我叫{name}。",
+   "py": "Wǒ jiào {name}."
+  },
+  {
+   "id": "sentences-1",
+   "deck": "sentences",
+   "hi": "आपका नाम क्या है?",
+   "roman": "Aapka naam kya hai?",
+   "en": "What is your name?",
+   "zh": "你叫什么名字？",
+   "py": "Nǐ jiào shénme míngzi?"
+  },
+  {
+   "id": "sentences-2",
+   "deck": "sentences",
+   "hi": "मैं {city} में रहता हूँ।",
+   "hi_f": "मैं {city} में रहती हूँ।",
+   "roman": "Main {city} mein rehta hoon.",
+   "roman_f": "Main {city} mein rehti hoon.",
+   "en": "I live in {city}.",
+   "zh": "我住在{city}。",
+   "py": "Wǒ zhù zài {city}."
+  },
+  {
+   "id": "sentences-3",
+   "deck": "sentences",
+   "hi": "आप कहाँ रहते हैं?",
+   "hi_f": "आप कहाँ रहती हैं?",
+   "roman": "Aap kahaan rehte hain?",
+   "roman_f": "Aap kahaan rehti hain?",
+   "en": "Where do you live?",
+   "zh": "你住在哪里？",
+   "py": "Nǐ zhù zài nǎlǐ?",
+   "hint": "Asking a boy/man: रहते (rehte). Asking a girl/woman: रहती (rehti).",
+   "formBy": "listener"
+  },
+  {
+   "id": "sentences-4",
+   "deck": "sentences",
+   "hi": "आपकी आयु कितनी है?",
+   "roman": "Aapki aayu kitni hai?",
+   "en": "How old are you?",
+   "zh": "你几岁了？",
+   "py": "Nǐ jǐ suì le?"
+  },
+  {
+   "id": "sentences-5",
+   "deck": "sentences",
+   "hi": "मैं {age} वर्ष का हूँ।",
+   "hi_f": "मैं {age} वर्ष की हूँ।",
+   "roman": "Main {age} varsh ka hoon.",
+   "roman_f": "Main {age} varsh ki hoon.",
+   "en": "I am {age} years old.",
+   "zh": "我{age}岁。",
+   "py": "Wǒ {age} suì."
+  },
+  {
+   "id": "sentences-6",
+   "deck": "sentences",
+   "hi": "आप कौन सी कक्षा में पढ़ते हैं?",
+   "hi_f": "आप कौन सी कक्षा में पढ़ती हैं?",
+   "roman": "Aap kaun si kaksha mein padhte hain?",
+   "roman_f": "Aap kaun si kaksha mein padhti hain?",
+   "en": "Which grade do you study in?",
+   "zh": "你上几年级？",
+   "py": "Nǐ shàng jǐ niánjí?",
+   "hint": "Asking a boy: पढ़ते (padhte). Asking a girl: पढ़ती (padhti).",
+   "formBy": "listener"
+  },
+  {
+   "id": "sentences-7",
+   "deck": "sentences",
+   "hi": "मैं कक्षा {grade} में पढ़ता हूँ।",
+   "hi_f": "मैं कक्षा {grade} में पढ़ती हूँ।",
+   "roman": "Main kaksha {grade} mein padhta hoon.",
+   "roman_f": "Main kaksha {grade} mein padhti hoon.",
+   "en": "I study in grade {grade}.",
+   "zh": "我上{grade}年级。",
+   "py": "Wǒ shàng {grade} niánjí."
+  },
+  {
+   "id": "sentences-8",
+   "deck": "sentences",
+   "hi": "लड़का: रहता / का · लड़की: रहती / की",
+   "roman": "Ladka: rehta / ka · Ladki: rehti / ki",
+   "en": "Boy says rehta / ka. Girl says rehti / ki.",
+   "zh": "男孩 / 女孩",
+   "py": "nánhái / nǚhái",
+   "grammar": true,
+   "hint": "Main Delhi mein rehta hoon (boy) · Main Delhi mein rehti hoon (girl). Main 7 varsh ka hoon (boy) · Main 7 varsh ki hoon (girl)."
+  }
+ ]
+}
